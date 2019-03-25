@@ -1,2 +1,14 @@
 # ExpediaScraper
-Web scraping from Expedia.es website with academic porpouse
+
+## Introducción
+Web scraping del sitio web Expedia.es con fines académicos
+
+## Componentes del grupo
+- Beñat Aranburu
+- Jon Ander Díez
+
+## Descripción de los ficheros
+- Código.(carpeta)
+  - ExpediaScraper.py
+- Resultado.csv
+- Explicación.pdf
