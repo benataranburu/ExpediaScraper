@@ -66,7 +66,7 @@ def departure_date_chooser(day, month, year):
 # Search
 def search():
     search = browser.find_element_by_xpath("//button[@class='btn-primary btn-action gcw-submit']")
-    search.click()
+    search.submit()
     time.sleep(10)
 
 # Create data frame
@@ -114,7 +114,7 @@ def compile_data(day, month, year):
 
     #prices
     prices = browser.find_elements_by_xpath("//span[@data-test-id='listing-price-dollars']")
-    price_list = [value.text.split('$')[1] for value in prices]
+    price_list = [value.text.split('€')[1] for value in prices]
 
     for i in range(len(dep_times_list)):
 
@@ -184,7 +184,7 @@ for i in range(24):
     search()
     compile_data(day, month, year)
     print(df)
-    df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=False, index=False)
+    df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
 
     time.sleep(3600)
 

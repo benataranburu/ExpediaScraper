@@ -1,0 +1,139 @@
+date_flight,name_departure_airport,name_arrival_airport,name_airline,duration,time_departure,time_arrival,number_stops,name_layovers,prices
+03/10/2019,Bilbao,London,Ryanair,1 h 40 min,9:45,10:25,(sin escalas),"2 h 50 min en BCN
+Escala de 2 h y 50 min en BCN",20 €
+03/10/2019,Bilbao,London,Vueling Airlines,1 h 45 min,18:25,19:10,(sin escalas),"1 h en MAD
+Escala de 1 h en MAD",25 €
+03/10/2019,Bilbao,London,easyJet,1 h 55 min,22:35,23:30,(sin escalas),"1 h 15 min en MAD
+Escala de 1 h y 15 min en MAD",43 €
+03/10/2019,Bilbao,London,British Airways,2 h 10 min,10:40,11:50,(sin escalas),"1 h 25 min en MAD
+Escala de 1 h y 25 min en MAD",51 €
+03/10/2019,Bilbao,London,Iberia,1 h 45 min,18:25,19:10,(sin escalas),"2 h en MAD
+Escala de 2 h en MAD",60 €
+03/10/2019,Bilbao,London,Vueling Airlines,6 h 20 min,15:40,21:00,(1 escala),"2 h 50 min en MAD
+Escala de 2 h y 50 min en MAD",61 €
+03/10/2019,Bilbao,London,easyJet,1 h 50 min,10:30,11:20,(sin escalas),"3 h en MAD
+Escala de 3 h en MAD",65 €
+03/10/2019,Bilbao,London,Iberia,4 h 25 min,6:45,10:10,(1 escala),"4 h 10 min en MAD
+Escala de 4 h y 10 min en MAD",66 €
+03/10/2019,Bilbao,London,Iberia,4 h 45 min,6:45,10:30,(1 escala),"4 h 15 min en MAD
+Escala de 4 h y 15 min en MAD",66 €
+03/10/2019,Bilbao,London,Iberia,4 h 55 min,13:20,17:15,(1 escala),"1 h 40 min en BCN
+Escala de 1 h y 40 min en BCN",66 €
+03/10/2019,Bilbao,London,Iberia,5 h 35 min,13:20,17:55,(1 escala),"2 h en BCN
+Escala de 2 h en BCN",66 €
+03/10/2019,Bilbao,London,Iberia,6 h 15 min,14:45,20:00,(1 escala),"2 h 10 min en BCN
+Escala de 2 h y 10 min en BCN",66 €
+03/10/2019,Bilbao,London,Iberia,6 h 35 min,9:25,15:00,(1 escala),"2 h 30 min en BCN
+Escala de 2 h y 30 min en BCN",66 €
+03/10/2019,Bilbao,London,Iberia,7 h 40 min,13:20,20:00,(1 escala),"2 h 40 min en BCN
+Escala de 2 h y 40 min en BCN",66 €
+03/10/2019,Bilbao,London,Iberia,7 h 45 min,8:15,15:00,(1 escala),"2 h 55 min en BCN
+Escala de 2 h y 55 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,5 h 10 min,8:00,12:10,(1 escala),"3 h 25 min en BCN
+Escala de 3 h y 25 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,5 h 30 min,9:25,13:55,(1 escala),"1 h 40 min en BCN
+Escala de 1 h y 40 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,5 h 40 min,15:40,20:20,(1 escala),"2 h en BCN
+Escala de 2 h en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,6 h 0 min,8:55,13:55,(1 escala),"2 h 30 min en BCN
+Escala de 2 h y 30 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,6 h 10 min,7:00,12:10,(1 escala),"2 h 55 min en BCN
+Escala de 2 h y 55 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,6 h 25 min,13:20,18:45,(1 escala),"3 h 25 min en BCN
+Escala de 3 h y 25 min en BCN",66 €
+03/10/2019,Bilbao,London,Vueling Airlines,6 h 55 min,8:00,13:55,(1 escala),"9 h 40 min en MAD
+Escala de 9 h y 40 min en MAD",66 €
+03/10/2019,Bilbao,London,Iberia,2 h 10 min,10:40,11:50,(sin escalas),"2 h 5 min en LIS
+Escala de 2 h y 5 min en LIS",67 €
+03/10/2019,Bilbao,London,Iberia,5 h 10 min,8:00,12:10,(1 escala),"3 h 35 min en LIS
+Escala de 3 h y 35 min en LIS",75 €
+03/10/2019,Bilbao,London,Iberia,5 h 30 min,9:25,13:55,(1 escala),"1 h 25 min en MAD
+Escala de 1 h y 25 min en MAD",75 €
+03/10/2019,Bilbao,London,Iberia,6 h 0 min,8:55,13:55,(1 escala),"1 h 10 min en BRU
+Escala de 1 h y 10 min en BRU",75 €
+03/10/2019,Bilbao,London,Iberia,6 h 25 min,13:20,18:45,(1 escala),"5 h 15 min en BRU
+Escala de 5 h y 15 min en BRU",75 €
+03/10/2019,Bilbao,London,Iberia,6 h 55 min,8:00,13:55,(1 escala),"1 h 15 min en DUS
+Escala de 1 h y 15 min en DUS",75 €
+03/10/2019,Bilbao,London,British Airways,1 h 45 min,18:25,19:10,(sin escalas),"1 h 15 min en MAD
+Escala de 1 h y 15 min en MAD",76 €
+03/10/2019,Bilbao,London,Air Europa,13 h 10 min,20:50,9:00,(1 escala),"1 h 25 min en MAD
+Escala de 1 h y 25 min en MAD",77 €
+03/10/2019,Bilbao,London,TAP Portugal,7 h 0 min,11:45,17:45,(1 escala),"1 h 35 min en MAD
+Escala de 1 h y 35 min en MAD",88 €
+03/10/2019,Bilbao,London,TAP Portugal,8 h 30 min,11:45,19:15,(1 escala),"2 h 5 min en MAD
+Escala de 2 h y 5 min en MAD",92 €
+03/10/2019,Bilbao,London,Air Europa,4 h 55 min,12:30,16:25,(1 escala),"2 h en MAD
+Escala de 2 h en MAD",94 €
+03/10/2019,Bilbao,London,Brussels Airlines,4 h 30 min,6:45,10:15,(1 escala),"2 h 50 min en MAD
+Escala de 2 h y 50 min en MAD",102 €
+03/10/2019,Bilbao,London,Brussels Airlines,8 h 15 min,14:20,21:35,(1 escala),"40 min en AMS
+Escala de 40 min en AMS",102 €
+03/10/2019,Bilbao,London,Eurowings,4 h 55 min,14:55,18:50,(1 escala),"1 h 15 min en AMS
+Escala de 1 h y 15 min en AMS",104 €
+03/10/2019,Bilbao,London,British Airways,4 h 45 min,6:45,10:30,(1 escala),"1 h 55 min en AMS
+Escala de 1 h y 55 min en AMS",110 €
+03/10/2019,Bilbao,London,British Airways,4 h 55 min,13:20,17:15,(1 escala),"2 h 35 min en AMS
+Escala de 2 h y 35 min en AMS",110 €
+03/10/2019,Bilbao,London,British Airways,5 h 10 min,9:25,13:35,(1 escala),"2 h 55 min en AMS
+Escala de 2 h y 55 min en AMS",110 €
+03/10/2019,Bilbao,London,British Airways,5 h 25 min,17:45,22:10,(1 escala),"3 h 15 min en AMS
+Escala de 3 h y 15 min en AMS",110 €
+03/10/2019,Bilbao,London,British Airways,5 h 35 min,13:20,17:55,(1 escala),"3 h 15 min en AMS
+Escala de 3 h y 15 min en AMS",110 €
+03/10/2019,Bilbao,London,British Airways,6 h 20 min,8:15,13:35,(1 escala),"3 h 35 min en AMS
+Escala de 3 h y 35 min en AMS",110 €
+03/10/2019,Bilbao,London,KLM,4 h 10 min,11:50,15:00,(1 escala),"4 h 25 min en AMS
+Escala de 4 h y 25 min en AMS",111 €
+03/10/2019,Bilbao,London,KLM,4 h 55 min,6:50,10:45,(1 escala),"1 h 35 min en MAD
+Escala de 1 h y 35 min en MAD",111 €
+03/10/2019,Bilbao,London,KLM,5 h 25 min,11:50,16:15,(1 escala),"3 h 5 min en MAD
+Escala de 3 h y 5 min en MAD",111 €
+03/10/2019,Bilbao,London,KLM,5 h 50 min,11:50,16:40,(1 escala),"3 h 55 min en MAD
+Escala de 3 h y 55 min en MAD",111 €
+03/10/2019,Bilbao,London,KLM,6 h 20 min,11:50,17:10,(1 escala),"12 h 10 min en CDG
+Escala de 12 h y 10 min en CDG",111 €
+03/10/2019,Bilbao,London,KLM,6 h 30 min,11:50,17:20,(1 escala),"1 h 15 min en AMS
+Escala de 1 h y 15 min en AMS",111 €
+03/10/2019,Bilbao,London,KLM,6 h 45 min,11:50,17:35,(1 escala),"2 h 25 min en MAD
+Escala de 2 h y 25 min en MAD",111 €
+03/10/2019,Bilbao,London,KLM,7 h 0 min,11:50,17:50,(1 escala),"1 h 10 min en CDG
+Escala de 1 h y 10 min en CDG",111 €
+03/10/2019,Bilbao,London,KLM,7 h 45 min,11:50,18:35,(1 escala),"4 h 5 min en CDG
+Escala de 4 h y 5 min en CDG",111 €
+03/10/2019,Bilbao,London,British Airways,5 h 0 min,8:15,12:15,(1 escala),"1 h 10 min en MAD
+Escala de 1 h y 10 min en MAD",115 €
+03/10/2019,Bilbao,London,British Airways,6 h 30 min,6:45,12:15,(1 escala),"1 h 25 min en CDG
+Escala de 1 h y 25 min en CDG",115 €
+03/10/2019,Bilbao,London,British Airways,7 h 15 min,14:45,21:00,(1 escala),"4 h 35 min en CDG
+Escala de 4 h y 35 min en CDG",115 €
+03/10/2019,Bilbao,London,Air France,15 h 10 min,7:10,21:20,(1 escala),"1 h 25 min en CDG
+Escala de 1 h y 25 min en CDG",121 €
+03/10/2019,Bilbao,London,KLM,4 h 40 min,17:15,20:55,(1 escala),"40 min en ZRH
+Escala de 40 min en ZRH",124 €
+03/10/2019,Bilbao,London,British Airways,5 h 55 min,14:45,19:40,(1 escala),"2 h 25 min en ZRH
+Escala de 2 h y 25 min en ZRH",125 €
+03/10/2019,Bilbao,London,Air France,4 h 15 min,18:05,21:20,(1 escala),"55 min en MUC
+Escala de 55 min en MUC",131 €
+03/10/2019,Bilbao,London,Air France,7 h 10 min,10:15,16:25,(1 escala),"1 h 10 min en MUC
+Escala de 1 h y 10 min en MUC",144 €
+03/10/2019,Bilbao,London,British Airways,4 h 40 min,14:45,18:25,(1 escala),"1 h 55 min en MUC
+Escala de 1 h y 55 min en MUC",165 €
+03/10/2019,Bilbao,London,Air France,4 h 30 min,10:15,13:45,(1 escala),"2 h 5 min en MUC
+Escala de 2 h y 5 min en MUC",177 €
+03/10/2019,Bilbao,London,Air France,7 h 35 min,7:10,13:45,(1 escala),"45 min en FRA
+Escala de 45 min en FRA",177 €
+03/10/2019,Bilbao,London,Air France,4 h 25 min,7:10,10:35,(1 escala),"1 h 5 min en FRA
+Escala de 1 h y 5 min en FRA",273 €
+03/10/2019,Bilbao,London,Swiss International Air Lines,4 h 20 min,14:35,17:55,(1 escala),"1 h 45 min en FRA
+Escala de 1 h y 45 min en FRA",305 €
+03/10/2019,Bilbao,London,Swiss International Air Lines,6 h 5 min,14:35,19:40,(1 escala),"2 h en ZRH
+Escala de 2 h en ZRH",305 €
+03/10/2019,Bilbao,London,Lufthansa,5 h 0 min,18:40,22:40,(1 escala),,305 €
+03/10/2019,Bilbao,London,Lufthansa,5 h 15 min,11:30,15:45,(1 escala),,305 €
+03/10/2019,Bilbao,London,Lufthansa,6 h 0 min,14:40,19:40,(1 escala),,305 €
+03/10/2019,Bilbao,London,Lufthansa,6 h 10 min,7:40,12:50,(1 escala),,305 €
+03/10/2019,Bilbao,London,Lufthansa,4 h 30 min,14:10,17:40,(1 escala),,308 €
+03/10/2019,Bilbao,London,Lufthansa,4 h 50 min,6:50,10:40,(1 escala),,308 €
+03/10/2019,Bilbao,London,Lufthansa,5 h 30 min,14:10,18:40,(1 escala),,308 €
+03/10/2019,Bilbao,London,Swiss International Air Lines,5 h 50 min,14:35,19:25,(1 escala),,333 €
