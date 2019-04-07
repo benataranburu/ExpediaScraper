@@ -9,6 +9,7 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 import time
 import datetime
+import myconstants as mc
 
 browser = webdriver.Chrome(executable_path='chromedriver')
 
@@ -36,25 +37,25 @@ def ticket_chooser(ticket):
 # Choose departure country
 def departure_city_chooser(departure_country):
     fly_from = browser.find_element_by_xpath("//input[@id='flight-origin-hp-flight']")
-    time.sleep(1)
+    time.sleep(mc.wait_next_step)
     fly_from.clear()
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     fly_from.send_keys('  ' + departure_country)
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     first_item = browser.find_element_by_xpath("//a[@id='aria-option-0']")
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     first_item.click()
 
 # Choose arrival country
 def arrival_city_chooser(arrival_country):
     fly_to = browser.find_element_by_xpath("//input[@id='flight-destination-hp-flight']")
-    time.sleep(1)
+    time.sleep(mc.wait_next_step)
     fly_to.clear()
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     fly_to.send_keys('  ' + arrival_country)
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     first_item = browser.find_element_by_xpath("//a[@id='aria-option-0']")
-    time.sleep(1.5)
+    time.sleep(mc.wait_next_step)
     first_item.click()
 
 # Choose departure date
@@ -187,5 +188,3 @@ for i in range(24):
     df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
 
     time.sleep(3600)
-
-
