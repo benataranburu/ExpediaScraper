@@ -170,21 +170,18 @@ def compile_data(day, month, year):
             pass
 
 # Run code
-for i in range(24):
-    link = 'https://www.expedia.es/'
-    browser.get(link)
-    time.sleep(5)
+link = 'https://www.expedia.es/'
+browser.get(link)
+time.sleep(5)
 
-    #choose flights only
-    flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
-    flights_only.click()
-    ticket_chooser(one_way_ticket)
-    departure_city_chooser(departure_country)
-    arrival_city_chooser(arrival_country)
-    departure_date_chooser(day, month, year)
-    search()
-    compile_data(day, month, year)
-    print(df)
-    df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
-
-    time.sleep(3600)
+#choose flights only
+flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
+flights_only.click()
+ticket_chooser(one_way_ticket)
+departure_city_chooser(departure_country)
+arrival_city_chooser(arrival_country)
+departure_date_chooser(day, month, year)
+search()
+compile_data(day, month, year)
+print(df)
+df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
