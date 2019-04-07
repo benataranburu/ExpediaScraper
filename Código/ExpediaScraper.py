@@ -172,7 +172,7 @@ def compile_data(day, month, year):
 # Run code
 link = 'https://www.expedia.es/'
 browser.get(link)
-time.sleep(5)
+time.sleep(mc.wait_open_url)
 
 #choose flights only
 flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
