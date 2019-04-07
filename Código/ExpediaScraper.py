@@ -10,15 +10,19 @@ import pandas as pd
 import time
 import datetime
 import myconstants as mc
+import from_cities as fc
+import to_cities as tc
 
 browser = webdriver.Chrome(executable_path='chromedriver')
 
 # User space
-departure_country = 'Bilbao'
-arrival_country = 'London'
 day = '03'
 month = '10'
 year = '2019'
+
+debug = True
+
+csv_index = 0;
 
 # Tickets
 ## Ticket type path
@@ -35,24 +39,24 @@ def ticket_chooser(ticket):
         pass
 
 # Choose departure country
-def departure_city_chooser(departure_country):
+def departure_city_chooser(departure_city):
     fly_from = browser.find_element_by_xpath("//input[@id='flight-origin-hp-flight']")
     time.sleep(mc.wait_next_step)
     fly_from.clear()
     time.sleep(mc.wait_next_step)
-    fly_from.send_keys('  ' + departure_country)
+    fly_from.send_keys('  ' + departure_city)
     time.sleep(mc.wait_next_step)
     first_item = browser.find_element_by_xpath("//a[@id='aria-option-0']")
     time.sleep(mc.wait_next_step)
     first_item.click()
 
 # Choose arrival country
-def arrival_city_chooser(arrival_country):
+def arrival_city_chooser(arrival_city):
     fly_to = browser.find_element_by_xpath("//input[@id='flight-destination-hp-flight']")
     time.sleep(mc.wait_next_step)
     fly_to.clear()
     time.sleep(mc.wait_next_step)
-    fly_to.send_keys('  ' + arrival_country)
+    fly_to.send_keys('  ' + arrival_city)
     time.sleep(mc.wait_next_step)
     first_item = browser.find_element_by_xpath("//a[@id='aria-option-0']")
     time.sleep(mc.wait_next_step)
@@ -68,11 +72,11 @@ def departure_date_chooser(day, month, year):
 def search():
     search = browser.find_element_by_xpath("//button[@class='btn-primary btn-action gcw-submit']")
     search.submit()
-    time.sleep(10)
+    time.sleep(mc.wait_search)
 
 # Create data frame
 df = pd.DataFrame()
-def compile_data(day, month, year):
+def compile_data(day, month, year, from_city, to_city):
     global df
     global dep_times_list
     global arr_times_list
@@ -85,9 +89,8 @@ def compile_data(day, month, year):
     #date_flight
     date_flight = day + '/' + month + '/' + year
 
-    #name_departure_airport
-
-    #name_arrival_airport
+    #add new rows after existing ones
+    csv_index = len(df.index)
 
     #name_airline
     airlines = browser.find_elements_by_xpath("//span[@data-test-id='airline-name']")
@@ -118,70 +121,72 @@ def compile_data(day, month, year):
     price_list = [value.text.split('€')[1] for value in prices]
 
     for i in range(len(dep_times_list)):
-
         try:
-            df.loc[i, 'date_flight'] = date_flight
+            df.loc[i + csv_index, 'date_flight'] = date_flight
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'name_departure_airport'] = departure_country
+            df.loc[i + csv_index, 'name_departure_airport'] = from_city
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'name_arrival_airport'] = arrival_country
+            df.loc[i + csv_index, 'name_arrival_airport'] = to_city
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'name_airline'] = airlines_list[i]
+            df.loc[i + csv_index, 'name_airline'] = airlines_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'duration'] = durations_list[i]
+            df.loc[i + csv_index, 'duration'] = durations_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'time_departure'] = dep_times_list[i]
+            df.loc[i + csv_index, 'time_departure'] = dep_times_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'time_arrival'] = arr_times_list[i]
+            df.loc[i + csv_index, 'time_arrival'] = arr_times_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'number_stops'] = stops_list[i]
+            df.loc[i + csv_index, 'number_stops'] = stops_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'name_layovers'] = layovers_list[i]
+            df.loc[i + csv_index, 'name_layovers'] = layovers_list[i]
         except Exception as e:
             pass
 
         try:
-            df.loc[i, 'prices'] = price_list[i]
+            df.loc[i + csv_index, 'prices'] = price_list[i]
         except Exception as e:
             pass
-
 # Run code
-link = 'https://www.expedia.es/'
-browser.get(link)
-time.sleep(mc.wait_open_url)
+for from_city in fc.from_cities:
+    for to_city in tc.to_cities:
+        link = 'https://www.expedia.es/'
+        browser.get(link)
+        time.sleep(mc.wait_open_url)
 
-#choose flights only
-flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
-flights_only.click()
-ticket_chooser(one_way_ticket)
-departure_city_chooser(departure_country)
-arrival_city_chooser(arrival_country)
-departure_date_chooser(day, month, year)
-search()
-compile_data(day, month, year)
-print(df)
+        #choose flights only
+        flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
+        flights_only.click()
+        ticket_chooser(one_way_ticket)
+        departure_city_chooser(from_city)
+        arrival_city_chooser(to_city)
+        departure_date_chooser(day, month, year)
+        search()
+        compile_data(day, month, year, from_city, to_city)
+        if (debug):
+            print(df)
+        time.sleep(mc.wait_next_step)
 df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
