@@ -62,6 +62,7 @@ def arrival_city_chooser(arrival_city):
     time.sleep(mc.wait_next_step)
     first_item.click()
 
+
 # Choose departure date
 def departure_date_chooser(day, month, year):
     dep_date_button = browser.find_element_by_xpath("//input[@id='flight-departing-single-hp-flight']")
@@ -84,7 +85,7 @@ def compile_data(day, month, year, from_city, to_city):
     global price_list
     global durations_list
     global stops_list
-    global layovers_list
+    global price_list
 
     #date_flight
     date_flight = day + '/' + month + '/' + year
@@ -112,13 +113,9 @@ def compile_data(day, month, year, from_city, to_city):
     stops = browser.find_elements_by_xpath("//span[@class='number-stops']")
     stops_list = [value.text for value in stops]
 
-    #name_layovers
-    layovers = browser.find_elements_by_xpath("//span[@data-test-id='layover-airport-stops']")
-    layovers_list = [value.text for value in layovers]
-
     #prices
     prices = browser.find_elements_by_xpath("//span[@data-test-id='listing-price-dollars']")
-    price_list = [value.text.split('€')[1] for value in prices]
+    price_list = [value.text for value in prices]
 
     for i in range(len(dep_times_list)):
         try:
@@ -158,11 +155,6 @@ def compile_data(day, month, year, from_city, to_city):
 
         try:
             df.loc[i + csv_index, 'number_stops'] = stops_list[i]
-        except Exception as e:
-            pass
-
-        try:
-            df.loc[i + csv_index, 'name_layovers'] = layovers_list[i]
         except Exception as e:
             pass
 
