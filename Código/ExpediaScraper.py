@@ -5,6 +5,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 
 import pandas as pd
 import time
@@ -13,7 +14,10 @@ import myconstants as mc
 import from_cities as fc
 import to_cities as tc
 
-browser = webdriver.Chrome(executable_path='chromedriver')
+opts = Options()
+opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) \
+    AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")
+browser = webdriver.Chrome(executable_path='chromedriver',chrome_options=opts)
 
 # User space
 day = '03'
