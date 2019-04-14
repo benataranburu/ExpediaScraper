@@ -12,7 +12,7 @@ Web scraping del sitio web Expedia.es con fines académicos
   - ExpediaScraper.py: El main de nuestro programa.
   - chromedriver.exe: Necesario para que funcione el código.
   - from_cities.py: Archivo a modificar cuando queramos modificar los aeropuertos de los que podemos salir.
-  - myconstants.py: Se almacenan los tiempos de espera.
+  - myconstants.py: Se definen las constantes de la aplicación (por ejemplo, los tiempos de espera).
   - to_cities.py:  Archivo a modificar cuando queramos modificar los aeropuertos a los que no nos importaría llegar.
 - CSV-s (carpeta)
   - PVCM-04-2019.CSV
