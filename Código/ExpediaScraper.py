@@ -20,8 +20,8 @@ opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) \
 browser = webdriver.Chrome(executable_path='chromedriver',chrome_options=opts)
 
 # User space
-day = '03'
-month = '10'
+day = '15'
+month = '12'
 year = '2019'
 
 debug = True
@@ -91,9 +91,6 @@ def compile_data(day, month, year, from_city, to_city):
     global stops_list
     global price_list
 
-    #date_flight
-    date_flight = day + '/' + month + '/' + year
-
     #add new rows after existing ones
     csv_index = len(df.index)
 
@@ -123,7 +120,7 @@ def compile_data(day, month, year, from_city, to_city):
 
     for i in range(len(dep_times_list)):
         try:
-            df.loc[i + csv_index, 'date_flight'] = date_flight
+            df.loc[int(i) + csv_index, 'id_flight'] = int(i)
         except Exception as e:
             pass
 
@@ -185,4 +182,4 @@ for from_city in fc.from_cities:
         if (debug):
             print(df)
         time.sleep(mc.wait_next_step)
-df.to_csv('PVCM-' + time.strftime("%m-%Y") +'.csv', header=True, index=False)
+df.to_csv('PVCM_' + time.strftime("%m-%Y") + '_'+ day + '-'+ month + '-' + year +'.csv', header=True, index=False)
