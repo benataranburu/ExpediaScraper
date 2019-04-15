@@ -1,5 +1,3 @@
-Welcome to the ExpediaScraper wiki!
-
 # ExpediaScraper
 
 ## Introducción
