@@ -20,7 +20,8 @@ Web scraping del sitio web Expedia.es con fines académicos
   - ...
   - PVCM_12-2021_15-12-2019.csv
 - Documentos (carpeta)
-  - **Documentación - Expedia - PRAC - Beñat Aranburu y Jon Ander Díez.docx**
+  - **Documentación - Expedia - PRAC - Beñat Aranburu y Jon Ander Díez.pdf**
+  - Documentación - Expedia - PRAC - Beñat Aranburu y Jon Ander Díez.docx
   - Elementos para creación de documento (carpeta)
     - Esquemas para pegar en word.pptx
     - Visualización (Carpeta)
