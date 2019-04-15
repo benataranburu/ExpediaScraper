@@ -13,6 +13,7 @@ import datetime
 import myconstants as mc
 import from_cities as fc
 import to_cities as tc
+import urllib.robotparser
 
 opts = Options()
 opts.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) \
@@ -163,23 +164,30 @@ def compile_data(day, month, year, from_city, to_city):
             df.loc[i + csv_index, 'prices'] = price_list[i]
         except Exception as e:
             pass
-# Run code
-for from_city in fc.from_cities:
-    for to_city in tc.to_cities:
-        link = 'https://www.expedia.es/'
-        browser.get(link)
-        time.sleep(mc.wait_open_url)
 
-        #choose flights only
-        flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
-        flights_only.click()
-        ticket_chooser(one_way_ticket)
-        departure_city_chooser(from_city)
-        arrival_city_chooser(to_city)
-        departure_date_chooser(day, month, year)
-        search()
-        compile_data(day, month, year, from_city, to_city)
-        if (debug):
-            print(df)
-        time.sleep(mc.wait_next_step)
-df.to_csv('PVCM_' + time.strftime("%m-%Y") + '_'+ day + '-'+ month + '-' + year +'.csv', header=True, index=False)
+# Run code
+rp = urllib.robotparser.RobotFileParser()
+rp.set_url("https://www.expedia.es/robots.txt")
+rp.read()
+if (rp.can_fetch("*", "https://www.expedia.es/Flights-Search")):
+    for from_city in fc.from_cities:
+        for to_city in tc.to_cities:
+            link = 'https://www.expedia.es/'
+            browser.get(link)
+            time.sleep(mc.wait_open_url)
+
+            #choose flights only
+            flights_only = browser.find_element_by_xpath("//button[@id='tab-flight-tab-hp']")
+            flights_only.click()
+            ticket_chooser(one_way_ticket)
+            departure_city_chooser(from_city)
+            arrival_city_chooser(to_city)
+            departure_date_chooser(day, month, year)
+            search()
+            compile_data(day, month, year, from_city, to_city)
+            if (debug):
+                print(df)
+            time.sleep(mc.wait_next_step)
+    df.to_csv('PVCM_' + time.strftime("%m-%Y") + '_'+ day + '-'+ month + '-' + year +'.csv', header=True, index=False)
+else:
+    print('Error: No tiene permisos para extraer ésta información según https://www.expedia.es/robots.txt')

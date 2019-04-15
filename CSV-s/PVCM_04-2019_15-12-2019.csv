@@ -8,42 +8,42 @@ id_flight,name_departure_airport,name_arrival_airport,name_airline,duration,time
 6.0,BILBAO,NEW YORK,Air Europa,11 h 10 min,12:45,17:55,(1 escala),1.776 €
 7.0,BILBAO,NEW YORK,Air Europa,15 h 20 min,8:35,17:55,(1 escala),1.776 €
 8.0,BILBAO,NEW YORK,Air France,11 h 35 min,10:20,15:55,(1 escala),1.823 €
-9.0,BILBAO,NEW YORK,Varias aerolíneas,11 h 35 min,10:20,15:55,(1 escala),1.823 €
-10.0,BILBAO,NEW YORK,Delta,11 h 35 min,10:20,15:55,(1 escala),1.823 €
-11.0,BILBAO,NEW YORK,Air France,14 h 35 min,10:20,18:55,(1 escala),1.823 €
-12.0,BILBAO,NEW YORK,Delta,14 h 35 min,10:20,18:55,(1 escala),1.823 €
+9.0,BILBAO,NEW YORK,Delta,11 h 35 min,10:20,15:55,(1 escala),1.823 €
+10.0,BILBAO,NEW YORK,Varias aerolíneas,11 h 35 min,10:20,15:55,(1 escala),1.823 €
+11.0,BILBAO,NEW YORK,Delta,14 h 35 min,10:20,18:55,(1 escala),1.823 €
+12.0,BILBAO,NEW YORK,Air France,14 h 35 min,10:20,18:55,(1 escala),1.823 €
 13.0,BILBAO,NEW YORK,Air France,14 h 40 min,7:15,15:55,(1 escala),1.823 €
 14.0,BILBAO,NEW YORK,Delta,14 h 40 min,7:15,15:55,(1 escala),1.823 €
 15.0,BILBAO,NEW YORK,Air France,16 h 30 min,10:20,20:50,(1 escala),1.823 €
-16.0,BILBAO,NEW YORK,Air France,17 h 40 min,7:15,18:55,(1 escala),1.823 €
-17.0,BILBAO,NEW YORK,Air France,20 h 30 min,20:10,10:40,(1 escala),1.823 €
-18.0,BILBAO,NEW YORK,Varias aerolíneas,11 h 15 min,13:20,18:35,(1 escala),1.825 €
-19.0,BILBAO,NEW YORK,Varias aerolíneas,12 h 45 min,8:15,15:00,(1 escala),1.825 €
+16.0,BILBAO,NEW YORK,Delta,16 h 30 min,10:20,20:50,(1 escala),1.823 €
+17.0,BILBAO,NEW YORK,Air France,17 h 40 min,7:15,18:55,(1 escala),1.823 €
+18.0,BILBAO,NEW YORK,Air France,20 h 30 min,20:10,10:40,(1 escala),1.823 €
+19.0,BILBAO,NEW YORK,Varias aerolíneas,11 h 15 min,13:20,18:35,(1 escala),1.825 €
 20.0,BILBAO,NEW YORK,Finnair,12 h 45 min,8:15,15:00,(1 escala),1.825 €
-21.0,BILBAO,NEW YORK,Finnair,16 h 20 min,8:15,18:35,(1 escala),1.825 €
-22.0,BILBAO,NEW YORK,American Airlines,15 h 15 min,13:20,22:35,(2 escalas),1.831 €
+21.0,BILBAO,NEW YORK,Varias aerolíneas,12 h 45 min,8:15,15:00,(1 escala),1.825 €
+22.0,BILBAO,NEW YORK,Finnair,16 h 20 min,8:15,18:35,(1 escala),1.825 €
 23.0,BILBAO,NEW YORK,American Airlines,15 h 15 min,13:20,22:35,(2 escalas),1.831 €
-24.0,BILBAO,NEW YORK,Iberia,11 h 15 min,13:20,18:35,(1 escala),1.836 €
+24.0,BILBAO,NEW YORK,American Airlines,15 h 15 min,13:20,22:35,(2 escalas),1.831 €
 25.0,BILBAO,NEW YORK,British Airways,11 h 15 min,13:20,18:35,(1 escala),1.836 €
-26.0,BILBAO,NEW YORK,Iberia,12 h 45 min,8:15,15:00,(1 escala),1.836 €
+26.0,BILBAO,NEW YORK,Iberia,11 h 15 min,13:20,18:35,(1 escala),1.836 €
 27.0,BILBAO,NEW YORK,British Airways,12 h 45 min,8:15,15:00,(1 escala),1.836 €
-28.0,BILBAO,NEW YORK,Iberia,16 h 20 min,8:15,18:35,(1 escala),1.836 €
+28.0,BILBAO,NEW YORK,Iberia,12 h 45 min,8:15,15:00,(1 escala),1.836 €
 29.0,BILBAO,NEW YORK,British Airways,16 h 20 min,8:15,18:35,(1 escala),1.836 €
-30.0,BILBAO,NEW YORK,British Airways,14 h 50 min,8:15,17:05,(2 escalas),1.842 €
-31.0,BILBAO,NEW YORK,British Airways,15 h 25 min,13:20,22:45,(2 escalas),1.842 €
+30.0,BILBAO,NEW YORK,Iberia,16 h 20 min,8:15,18:35,(1 escala),1.836 €
+31.0,BILBAO,NEW YORK,British Airways,14 h 50 min,8:15,17:05,(2 escalas),1.842 €
 32.0,BILBAO,NEW YORK,British Airways,15 h 25 min,13:20,22:45,(2 escalas),1.842 €
 33.0,BILBAO,NEW YORK,British Airways,15 h 25 min,13:20,22:45,(2 escalas),1.842 €
-34.0,BILBAO,NEW YORK,Varias aerolíneas,12 h 45 min,6:55,13:40,(1 escala),1.954 €
-35.0,BILBAO,NEW YORK,Delta,12 h 11 min,7:15,13:26,(1 escala),1.954 €
-36.0,BILBAO,NEW YORK,Air France,12 h 11 min,7:15,13:26,(1 escala),1.954 €
-37.0,BILBAO,NEW YORK,Delta,16 h 30 min,10:20,20:50,(1 escala),1.954 €
-38.0,BILBAO,NEW YORK,Delta,12 h 40 min,6:50,13:30,(1 escala),1.957 €
-39.0,BILBAO,NEW YORK,KLM,12 h 40 min,6:50,13:30,(1 escala),1.957 €
+34.0,BILBAO,NEW YORK,British Airways,15 h 25 min,13:20,22:45,(2 escalas),1.842 €
+35.0,BILBAO,NEW YORK,Varias aerolíneas,12 h 45 min,6:55,13:40,(1 escala),1.954 €
+36.0,BILBAO,NEW YORK,Delta,12 h 11 min,7:15,13:26,(1 escala),1.954 €
+37.0,BILBAO,NEW YORK,Air France,12 h 11 min,7:15,13:26,(1 escala),1.954 €
+38.0,BILBAO,NEW YORK,KLM,12 h 40 min,6:50,13:30,(1 escala),1.957 €
+39.0,BILBAO,NEW YORK,Delta,12 h 40 min,6:50,13:30,(1 escala),1.957 €
 40.0,BILBAO,NEW YORK,KLM,14 h 55 min,6:50,15:45,(1 escala),1.957 €
 41.0,BILBAO,NEW YORK,Delta,14 h 55 min,6:50,15:45,(1 escala),1.957 €
 42.0,BILBAO,NEW YORK,Delta,16 h 25 min,6:50,17:15,(1 escala),1.957 €
-43.0,BILBAO,NEW YORK,Delta,10 h 55 min,8:35,13:30,(1 escala),1.970 €
-44.0,BILBAO,NEW YORK,KLM,10 h 55 min,8:35,13:30,(1 escala),1.970 €
+43.0,BILBAO,NEW YORK,KLM,10 h 55 min,8:35,13:30,(1 escala),1.970 €
+44.0,BILBAO,NEW YORK,Delta,10 h 55 min,8:35,13:30,(1 escala),1.970 €
 45.0,BILBAO,NEW YORK,Delta,15 h 20 min,8:35,17:55,(1 escala),1.970 €
 46.0,BILBAO,NEW YORK,Varias aerolíneas,14 h 30 min,7:15,15:45,(2 escalas),1.973 €
 47.0,BILBAO,NEW YORK,Varias aerolíneas,14 h 30 min,7:15,15:45,(2 escalas),1.973 €
@@ -128,52 +128,52 @@ id_flight,name_departure_airport,name_arrival_airport,name_airline,duration,time
 5.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 50 min,21:20,13:10,(1 escala),1.872 €
 6.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 30 min,21:20,12:50,(2 escalas),1.878 €
 7.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 30 min,21:20,12:50,(2 escalas),1.878 €
-8.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 0 min,21:20,14:20,(2 escalas),1.878 €
-9.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 0 min,21:20,14:20,(2 escalas),1.878 €
-10.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.882 €
-11.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.882 €
-12.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,25 h 5 min,18:05,13:10,(1 escala),1.882 €
-13.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,25 h 35 min,17:35,13:10,(1 escala),1.882 €
-14.0,SAN SEBASTIAN,NEW YORK,Iberia,11 h 5 min,13:30,18:35,(1 escala),1.883 €
-15.0,SAN SEBASTIAN,NEW YORK,Iberia,11 h 40 min,7:30,13:10,(1 escala),1.883 €
-16.0,SAN SEBASTIAN,NEW YORK,Iberia,13 h 30 min,7:30,15:00,(1 escala),1.883 €
-17.0,SAN SEBASTIAN,NEW YORK,Iberia,17 h 5 min,7:30,18:35,(1 escala),1.883 €
-18.0,SAN SEBASTIAN,NEW YORK,Iberia,21 h 50 min,21:20,13:10,(1 escala),1.883 €
+8.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.882 €
+9.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.882 €
+10.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,25 h 5 min,18:05,13:10,(1 escala),1.882 €
+11.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,25 h 5 min,18:05,13:10,(1 escala),1.882 €
+12.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,25 h 35 min,17:35,13:10,(1 escala),1.882 €
+13.0,SAN SEBASTIAN,NEW YORK,Iberia,11 h 5 min,13:30,18:35,(1 escala),1.883 €
+14.0,SAN SEBASTIAN,NEW YORK,Iberia,11 h 40 min,7:30,13:10,(1 escala),1.883 €
+15.0,SAN SEBASTIAN,NEW YORK,Iberia,13 h 30 min,7:30,15:00,(1 escala),1.883 €
+16.0,SAN SEBASTIAN,NEW YORK,Iberia,17 h 5 min,7:30,18:35,(1 escala),1.883 €
+17.0,SAN SEBASTIAN,NEW YORK,Iberia,21 h 50 min,21:20,13:10,(1 escala),1.883 €
+18.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.889 €
 19.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.889 €
 20.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.889 €
-21.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.889 €
-22.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 35 min,7:30,17:05,(2 escalas),1.889 €
+21.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 35 min,7:30,17:05,(2 escalas),1.889 €
+22.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.889 €
 23.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.889 €
 24.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.889 €
-25.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.889 €
+25.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.889 €
 26.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.889 €
 27.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.889 €
 28.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.889 €
-29.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.889 €
+29.0,SAN SEBASTIAN,NEW YORK,Iberia,21 h 30 min,21:20,12:50,(2 escalas),1.889 €
 30.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 30 min,21:20,12:50,(2 escalas),1.889 €
-31.0,SAN SEBASTIAN,NEW YORK,Iberia,21 h 30 min,21:20,12:50,(2 escalas),1.889 €
-32.0,SAN SEBASTIAN,NEW YORK,British Airways,23 h 25 min,18:05,11:30,(2 escalas),1.889 €
-33.0,SAN SEBASTIAN,NEW YORK,Iberia,23 h 40 min,21:20,15:00,(1 escala),1.893 €
-34.0,SAN SEBASTIAN,NEW YORK,Iberia,25 h 5 min,18:05,13:10,(1 escala),1.893 €
-35.0,SAN SEBASTIAN,NEW YORK,Iberia,25 h 35 min,17:35,13:10,(1 escala),1.893 €
-36.0,SAN SEBASTIAN,NEW YORK,Iberia,27 h 15 min,21:20,18:35,(1 escala),1.893 €
-37.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,11 h 5 min,13:30,18:35,(1 escala),1.897 €
-38.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,11 h 40 min,7:30,13:10,(1 escala),1.897 €
-39.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,13 h 30 min,7:30,15:00,(1 escala),1.897 €
-40.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,17 h 5 min,7:30,18:35,(1 escala),1.897 €
-41.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 50 min,21:20,13:10,(1 escala),1.897 €
-42.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.907 €
+31.0,SAN SEBASTIAN,NEW YORK,British Airways,23 h 25 min,18:05,11:30,(2 escalas),1.889 €
+32.0,SAN SEBASTIAN,NEW YORK,Iberia,23 h 40 min,21:20,15:00,(1 escala),1.893 €
+33.0,SAN SEBASTIAN,NEW YORK,Iberia,25 h 5 min,18:05,13:10,(1 escala),1.893 €
+34.0,SAN SEBASTIAN,NEW YORK,Iberia,25 h 35 min,17:35,13:10,(1 escala),1.893 €
+35.0,SAN SEBASTIAN,NEW YORK,Iberia,27 h 15 min,21:20,18:35,(1 escala),1.893 €
+36.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,11 h 5 min,13:30,18:35,(1 escala),1.897 €
+37.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,11 h 40 min,7:30,13:10,(1 escala),1.897 €
+38.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,13 h 30 min,7:30,15:00,(1 escala),1.897 €
+39.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,17 h 5 min,7:30,18:35,(1 escala),1.897 €
+40.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 50 min,21:20,13:10,(1 escala),1.897 €
+41.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,23 h 40 min,21:20,15:00,(1 escala),1.907 €
+42.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.921 €
 43.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.921 €
 44.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.921 €
-45.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 15 min,13:30,22:45,(2 escalas),1.921 €
-46.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 35 min,7:30,17:05,(2 escalas),1.921 €
+45.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,15 h 35 min,7:30,17:05,(2 escalas),1.921 €
+46.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.921 €
 47.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.921 €
 48.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.921 €
-49.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,18 h 10 min,7:30,19:40,(2 escalas),1.921 €
+49.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.921 €
 50.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.921 €
 51.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.921 €
 52.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.921 €
-53.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,19 h 40 min,7:30,21:10,(2 escalas),1.921 €
+53.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 15 min,7:30,22:45,(2 escalas),1.921 €
 54.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 15 min,7:30,22:45,(2 escalas),1.921 €
 55.0,SAN SEBASTIAN,NEW YORK,Varias aerolíneas,21 h 30 min,21:20,12:50,(2 escalas),1.921 €
 56.0,SAN SEBASTIAN,NEW YORK,American Airlines,11 h 5 min,13:30,18:35,(1 escala),2.135 €
@@ -192,24 +192,24 @@ id_flight,name_departure_airport,name_arrival_airport,name_airline,duration,time
 9.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,6 h 40 min,13:30,19:10,(1 escala),105 €
 10.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,18 h 40 min,21:20,15:00,(1 escala),108 €
 11.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,16 h 55 min,21:20,13:15,(1 escala),113 €
-12.0,SAN SEBASTIAN,LONDON HEATHROW,Varias aerolíneas,4 h 30 min,18:05,21:35,(1 escala),127 €
-13.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,6 h 0 min,7:30,12:30,(1 escala),134 €
-14.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,6 h 45 min,7:30,13:15,(1 escala),134 €
-15.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,8 h 30 min,7:30,15:00,(1 escala),134 €
-16.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,9 h 55 min,7:30,16:25,(1 escala),134 €
-17.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,10 h 45 min,7:30,17:15,(1 escala),134 €
-18.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,11 h 25 min,7:30,17:55,(1 escala),134 €
-19.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,11 h 55 min,7:30,18:25,(1 escala),134 €
-20.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,12 h 5 min,21:20,8:25,(1 escala),134 €
-21.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,12 h 40 min,7:30,19:10,(1 escala),134 €
-22.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,13 h 30 min,21:20,9:50,(1 escala),134 €
+12.0,SAN SEBASTIAN,LONDON HEATHROW,British Airways,4 h 30 min,18:05,21:35,(1 escala),127 €
+13.0,SAN SEBASTIAN,LONDON HEATHROW,Varias aerolíneas,4 h 30 min,18:05,21:35,(1 escala),127 €
+14.0,SAN SEBASTIAN,LONDON HEATHROW,British Airways,5 h 10 min,18:05,22:15,(1 escala),127 €
+15.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,6 h 0 min,7:30,12:30,(1 escala),134 €
+16.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,6 h 45 min,7:30,13:15,(1 escala),134 €
+17.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,8 h 30 min,7:30,15:00,(1 escala),134 €
+18.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,9 h 55 min,7:30,16:25,(1 escala),134 €
+19.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,10 h 45 min,7:30,17:15,(1 escala),134 €
+20.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,11 h 25 min,7:30,17:55,(1 escala),134 €
+21.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,11 h 55 min,7:30,18:25,(1 escala),134 €
+22.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,12 h 40 min,7:30,19:10,(1 escala),134 €
 23.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 5 min,7:30,21:35,(1 escala),134 €
-24.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 20 min,18:05,8:25,(1 escala),134 €
-25.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 45 min,7:30,22:15,(1 escala),142 €
-26.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 50 min,17:35,8:25,(1 escala),142 €
-27.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,16 h 10 min,21:20,12:30,(1 escala),161 €
-28.0,SAN SEBASTIAN,LONDON HEATHROW,British Airways,4 h 30 min,18:05,21:35,(1 escala),162 €
-29.0,SAN SEBASTIAN,LONDON HEATHROW,British Airways,5 h 10 min,18:05,22:15,(1 escala),162 €
-30.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,14 h 10 min,21:20,10:30,(1 escala),304 €
-31.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,17 h 25 min,18:05,10:30,(1 escala),312 €
-32.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,17 h 55 min,17:35,10:30,(1 escala),312 €
+24.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 45 min,7:30,22:15,(1 escala),142 €
+25.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,16 h 10 min,21:20,12:30,(1 escala),161 €
+26.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,12 h 5 min,21:20,8:25,(1 escala),192 €
+27.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,14 h 10 min,21:20,10:30,(1 escala),192 €
+28.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 20 min,18:05,8:25,(1 escala),192 €
+29.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,15 h 50 min,17:35,8:25,(1 escala),200 €
+30.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,17 h 25 min,18:05,10:30,(1 escala),200 €
+31.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,17 h 55 min,17:35,10:30,(1 escala),200 €
+32.0,SAN SEBASTIAN,LONDON HEATHROW,Iberia,13 h 30 min,21:20,9:50,(1 escala),455 €
